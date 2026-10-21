@@ -1,0 +1,15 @@
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finmath"
+version = "0.1.0"
+description = "A toolkit for investment returns and risk analysis"
+requires-python = ">=3.8"
+dependencies = ["numpy", "matplotlib"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["finmath*"]
