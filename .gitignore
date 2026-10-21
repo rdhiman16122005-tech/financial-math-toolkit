@@ -1,0 +1,19 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Package build files
+build/
+dist/
+*.egg-info/
+
+# macOS system files
+.DS_Store
+
+# VS Code settings (optional)
+.vscode/
